@@ -1,3 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&family=Bad+Script&family=Bai+Jamjuree:wght@200&family=Cookie&display=swap");
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Arima Madurai";
+  font-size: 40px;
+}
 
+.container_inputs {
+  display: flex;
+  justify-content: space-evenly;
+  border: aquamarine;
+}
+.container_inputs .container {
+  padding-top: 15px;
+}
+.container_inputs .container button {
+  font-family: "Arima Madurai";
+  font-weight: bold;
+  border-radius: 5px;
+  border-style: none;
+  border: solid 1px;
+  border-color: #ec1641;
+  background-color: white;
+}
+.container_inputs .container input {
+  border-style: none;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 4px;
+}
+.container_inputs .lista {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 
 /*# sourceMappingURL=style.css.map */
