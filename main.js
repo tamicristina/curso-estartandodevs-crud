@@ -23,7 +23,8 @@ function limparItem() {
   lista.innerHTML = "";
   return;
 }
-document.querySelector("ul").value = localStorage.item;
+
+// document.querySelector("ul").value = localStorage.item;
 const salvarDados = function () {
   let itensLista = lista.innerText;
 
