@@ -43,6 +43,8 @@ body .conteudo .container_inputs .container input {
   border: solid 1px #8aa6db;
   border-radius: 5px;
   padding: 4px;
+  font-family: "Arima Madurai";
+  font-weight: bold;
 }
 body .conteudo .container_inputs .container input:focus {
   outline: 0;
