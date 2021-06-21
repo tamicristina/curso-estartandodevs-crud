@@ -1,41 +1,69 @@
 @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&family=Bad+Script&family=Bai+Jamjuree:wght@200&family=Cookie&display=swap");
 
-h1 {
-  text-align: center;
-  padding-top: 20px;
-  font-family: "Arima Madurai";
-  font-size: 40px;
-}
+body {
+  background-color: rgb(138, 166, 219);
+  .conteudo {
+    height: 100%;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    margin-inline: auto;
 
-.container_inputs {
-  display: flex;
-  justify-content: space-evenly;
-  border: aquamarine;
-
-  .container {
-    padding-top: 15px;
-
-    button {
+    h1 {
+      text-align: center;
+      padding-top: 20px;
       font-family: "Arima Madurai";
-      font-weight: bold;
-      border-radius: 5px;
-      border-style: none;
-      border: solid 1px;
-      border-color: rgb(236, 22, 65);
-      background-color: rgb(255, 255, 255);
+      font-size: 40px;
+      color: rgb(138, 166, 219);
     }
-    input {
-      border-style: none;
-      border: solid 1px;
-      border-radius: 5px;
-      padding: 4px;
-    }
-  }
 
-  .lista {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    .container_inputs {
+      display: flex;
+      justify-content: space-evenly;
+
+      .container {
+        padding-top: 15px;
+
+        button {
+          font-family: "Arima Madurai";
+          font-weight: bold;
+          font-size: 15px;
+          color: rgb(138, 166, 219);
+          border-radius: 5px;
+          border-style: none;
+          border: solid 1px;
+          border-color: rgb(138, 166, 219);
+          background-color: rgb(255, 255, 255);
+        }
+        button:hover {
+          background-color: rgb(138, 166, 219);
+          color: rgb(255, 255, 255);
+          cursor: pointer;
+        }
+
+        input {
+          border-style: none;
+          border: solid 1px rgb(138, 166, 219);
+          border-radius: 5px;
+          padding: 4px;
+        }
+
+        input:focus {
+          outline: 0;
+        }
+      }
+
+      .lista {
+        padding-top: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        .itens {
+          font-family: "Arima Madurai";
+          font-weight: bold;
+        }
+      }
+    }
   }
 }

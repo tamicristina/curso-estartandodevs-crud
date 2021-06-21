@@ -7,11 +7,17 @@ botao.addEventListener("click", adicionarItem);
 botaoLimpar.addEventListener("click", limparItem);
 
 function adicionarItem() {
-  let adicionar = "<li>" + item.value;
-  lista.innerHTML += adicionar;
+  let adicionar = "<li class=itens>" + item.value;
+
+  if (lista.innerText.includes(item.value)) {
+    window.alert("O item informado já existe na lista");
+  } else {
+    lista.innerHTML += adicionar;
+  }
 
   item.value = "";
   item.focus();
+  return adicionar;
 }
 
 function limparItem() {
